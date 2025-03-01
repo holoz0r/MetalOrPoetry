@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+    <link rel="icon" type="image/x-icon" href="logosq.png">
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	 <meta property="og:title" content="Metal or Poetry - Heavy Metal and Poetry Guessing Game">
+
+    <meta property="og:description" content="Play Metal or Poetry, the ultimate guessing game that combines heavy metal lyrics and poetic verses. Dive into the chaos and test your wits!">
+
+    <meta property="og:image" content="ext_logo.png">
+
+    <meta property="og:url" content="https://www.metal-or-poetry.rocks">
+
+    <meta property="og:type" content="website">
+
+    <title>Metal or Poetry Guessing Game</title>
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+	 <script type="application/ld+json">
+
+    {
+
+        "@context": "http://schema.org",
+
+        "@type": "Organization",
+
+        "url": "https://www.metal-or-poetry.rocks",
+
+        "name": "Metal or Poetry",
+
+        "description": "Guessing game combining heavy metal lyrics and poetic verses."
+
+    }
+
+</script>
+
+
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P6HF597S33"></script>
+
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+
+
+  gtag('config', 'G-P6HF597S33');
+
+</script>
+
+<body>
+
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v18.0&appId=663459962344733" nonce="0UsoXxCu"></script>
+
+<center>
+
+    <img src="logo.svg" alt="Metal or Poetry - Logo" class="logo">
+
+
+
+    <div>
+
+        <h3>Distribution of Quotes:</h3>
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>Category</th>
+
+                    <th>Count</th>
+
+                    <th>%</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr id="metalStats">
+
+                    <td>Metal</td>
+
+                    <td id="metalCount"></td>
+
+                    <td id="metalPercentage"></td>
+
+                </tr>
+
+                <tr id="poetryStats">
+
+                    <td>Poetry</td>
+
+                    <td id="poetryCount"></td>
+
+                    <td id="poetryPercentage"></td>
+
+                </tr>
+
+                <tr id="totalStats">
+
+                    <td>Total Entries</td>
+
+                    <td id="totalCount"></td>
+
+                    <td id="totalPercentage"></td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <div align="center">
+
+        <h3>Most Represented Authors and their category</h3>
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>Rank</th>
+
+                    <th>Author</th>
+
+                    <th>Category</th>
+
+                    <th>Count</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody id="authorCounts"></tbody>
+
+        </table>
+
+    </div>
+
+    <hr/>
+
+		<a href="https://forms.gle/h6M1NZFvMxedUNap8" target="_blank">Suggest a new quote</a>	
+
+<hr/>
+
+    <footer>Like this? Please consider donating:<br/><br/>
+
+        <a href="https://www.buymeacoffee.com/holoz0rsplu" target="_blank">Buy me a pizza slice</a><br/>
+
+        BTC: bc1qv6wxsaksmzv0hgx6pwvpfr5dp60udp7k7aspde<br/>
+
+        ETH: 0x2f2f8884BA05c1f4A333A11d01604c4F7fc010A1<br/>
+
+        <a href="https://waxblock.io/account/zeroholozors">WAX: zeroholozors</a><br/>
+
+        <a href="https://peakd.com/@holoz0r">HIVE: holoz0r</a><br/><br/>
+
+    
+
+        <div class="fb-share-button" data-href="https://www.metal-or-poetry.rocks" data-layout="" data-size=""><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.metal-or-poetry.rocks%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+
+    
+
+        <hr/>
+
+        <a href="index.html">Game</a> | <a href="madminute.html">Mad Minute</a> | <a href="stats.html">Stats</a> | <a href="about.html">About</a> | <a href="privacy.html" target="_blank">Privacy Policy</a> <br/><br/> <a href="#">Made with adoration for metal and poetry: by</a> <a href="https://www.perdikis.art" target="_blank">Steven Perdikis (Website)</a> | <a href="https://www.krystaldaviesdesign.com/" target="_blank">Krystal Davies (Logo)</a><br/>
+        <br/>
+        <a href="https://forms.gle/Ak27QaZvoA1nNoAP6" target="_blank">Provide Feedback</a>
+    </footer>
+
+    </center>
+
+        <script type="module" src="script.js"></script>
+
+        <script type="module" src="stats.js"></script>
+
+        <script type="module" src="db.js"></script>
+        </body>
+
+        </html>

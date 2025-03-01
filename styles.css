@@ -1,0 +1,103 @@
+/* styles.css */
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #6E1300;
+}
+
+button {
+    background-color: #666;
+    color: #ffffff;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #999;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+	font-size: 12px;
+}
+
+a:hover {
+    text-decoration: none;
+	color: #cccccc;
+}
+
+a:visited {
+	color: #ffffff;
+    text-decoration: none;
+	font-size: 12px;
+}
+
+hr {
+    border: 1px solid #666;
+    width: 50%;
+}
+
+#yourScore {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#feedbackMessage {
+    font-size: 20px;
+}
+
+#additionalInfo {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+#buttonContainer {
+    display: inline-block;
+}
+
+footer {
+    font-size: 12px;
+    color: #999;
+    margin-top: 20px;
+}
+
+img.logo {
+    width: 50%; 
+    height: auto;
+    max-width: 1000px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+thead th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #666;
+}
+
+tbody td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #666;
+}
+
+/* Center text relative to headers */
+th, td {
+    text-align: center;
+}
